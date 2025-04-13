@@ -13,7 +13,7 @@
 
 {#key num}
 	<div
-		style="background-image: url('src/lib/imgs/img{num}.jpg')"
+		style="background-image: url('/imgs/img{num}.jpg')"
 		transition:fade={{ duration: 1500 }}
 		class="absolute z-[-1] min-h-screen w-full bg-cover bg-center bg-no-repeat"
 	></div>
