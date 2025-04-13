@@ -21,7 +21,7 @@
 
 	const getWeather = async () => {
 		const res = await fetch(
-			`http://api.weatherapi.com/v1/current.json?key=${PUBLIC_API_KEY}&q=Tucson&aqi=no`
+			`https://api.weatherapi.com/v1/current.json?key=${PUBLIC_API_KEY}&q=Tucson&aqi=no`
 		);
 
 		const data = await res.json();
